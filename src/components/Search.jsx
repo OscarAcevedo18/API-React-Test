@@ -53,7 +53,7 @@ const Search = ({ info }) => {
             <button type="submit" className="btn">
               Buscar Guerrero
             </button>
-            <a className="dev" href="http://localhost:3000">Volver a la lista</a>
+            <a className="dev" href="https://github.com/OscarAcevedo18/API-React-Test">Volver a la lista</a>
               {/* aqui comienza el formulario */}
           </form>
           <div>
