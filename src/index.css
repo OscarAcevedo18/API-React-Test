@@ -1,13 +1,161 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-image: url(https://media2.giphy.com/media/6yyIrL4JczqfmFRHCl/giphy.gif);
+  height: 100vh;
+  background-size: 100%;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(https://c.tenor.com/QLRfVx1VuhwAAAAC/vegeta-ssbe.gif) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Rampart One', cursive;
+  padding: 30px;
+  border: #3e0539 3px solid;
+}
+
+.title {
+  color: antiquewhite;
+  background-color: #3e0539d0;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.container-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.dev {
+  margin-right: 80px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fdfdfd;
+  border-radius: 9px;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+h3 {
+  background-color: #3e0539ce;
+  color: whitesmoke;
+  text-align: center;
+  font-size:medium;
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.btn {
+  width: 75px;
+  height: 70px;
+  background-image: url(https://pa1.narvii.com/6476/60c7f8ccae4622b03594bfec28d5c99f86d3e097_hq.gif);
+  color: #fdfdfd;
+  border-radius: 50px;
+  border: #ff4400b0 solid 3px;
+  margin-top: 10px;
+  margin-right: 80px;
+  /* padding: 5px; */
+  font-family: 'Black Ops One', cursive;
+}
+
+.search {
+  display: flex;
+  width: 200px;
+  padding: 5px;
+  margin-right: 80px;
+  border-radius: 15px;
+  font-family: 'Black Ops One', cursive;
+}
+
+h2 {
+  font-size: x-large;
+  color: #fd7575;
+}
+
+h3 {
+  text-align: center;
+  font-size:medium;
+  color: #f26767;
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 200px;
+  margin-right: 40px;
+}
+
+h4 {
+  color: #eec0c0;
+  margin: 8px;
+}
+
+.ghost {
+  text-align: center;
+  background-color: #3e0539b0;
+  color: aliceblue;
+  margin-top: 8px;
+  font-family: 'Fredoka One', cursive;
+  border-radius: 30px;
+}
+
+.btn-order{
+justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px;
+  margin: 5px;
+  color: #f30000;
+  border-radius: 10px;
+}
+
+.text-card {
+  text-align: center;
+  background-color: #000000b9;
+  width: 60%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 30px;
+  margin-top: 20px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin: 20px;
+  height: 25rem;
+  width: 18rem;
+  background-image: url(https://1.bp.blogspot.com/-ybsR7P4bazs/VwrMGuQ15XI/AAAAAAAABVI/x3p8Hrj3nLko3Uio1qQNBVUmTBVl30r7Q/s1600/safe_image.gif);
+  background-size: cover;
+  border: 8px solid transparent;
+  border-image: url(https://giffiles.alphacoders.com/131/13142.gif) 30 30
+    stretch;
+  border-radius: 25px;
+}
+
+.img-card {
+  height: 180px;
+  width: 140px;
 }
