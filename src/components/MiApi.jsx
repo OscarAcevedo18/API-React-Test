@@ -7,7 +7,7 @@ const MiApi = () => {
   const [info, setInfo] = useState([]);
 
   // se define un nombre de variable que representará el estado que queremos guardar (info).
-  //  luego definimos un nombre de una función que cambiará el estado (setInfo).
+  //  luego definimos un nombre de la función que cambiará el estado (setInfo).
 
   // Fetch hace un request al endpoint res.json Transforma los resultados para que podamos leerlos fácilmente como un objeto de Javascript.
   // Los métodos fetch y json() devuelven un tipo de dato especial llamado promesa, estas promesas deben resolverse en algún momento pero esto puede demorar, para esperar el

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Swal from "sweetalert2";
 
-// useState es el objeto interno del componente
+// useState es el objeto interno del componente React
 
 const Search = ({ info }) => {
   const [filterWarrior, setFilterWarriors] = useState("");
@@ -33,7 +33,7 @@ const Search = ({ info }) => {
 
   return (
     <div>
-      <div className="container-title" fixed="top">
+      <div className="container-title">
         <h1 className="title"> API Dragon Ball Super </h1> 
         <div className="container-bar">
           <h3 className="sub">Buscador de Guerreros</h3>
